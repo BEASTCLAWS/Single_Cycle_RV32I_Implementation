@@ -15,6 +15,10 @@ yaml_version: 1
 stage: decode
 
 modules:
+
+  if_stage:
+    source_files: [IF_Stage/rtl.sv]
+
   decoder:
     source_files: [Decoder/rtl.sv]
 
